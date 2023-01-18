@@ -1,16 +1,24 @@
 {
-    "name": "sh1r3f/woocommerge",
-    "description": "this will be my reusable package",
-    "authors": [
-        {
-            "name": "Mahmoud Shiref",
-            "email": "sh1r3f@gmail.com"
-        }
-    ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "Mahmoud\\Woocommerge\\": "src/"
-        }
-    }
+	"name": "sh1r3f/woocommerge",
+	"description": "this will be my reusable package",
+	"authors": [
+		{
+			"name": "Mahmoud Shiref",
+			"email": "sh1r3f@gmail.com"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Mahmoud\\Woocommerge\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"\\Mahmoud\\Woocommerge\\WoocommergeServiceProvider"
+			]
+		}
+	}
 }
