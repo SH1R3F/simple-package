@@ -1,0 +1,16 @@
+{
+    "name": "mahmoud/woocommerge",
+    "description": "this will be my reusable package",
+    "authors": [
+        {
+            "name": "Mahmoud Shiref",
+            "email": "sh1r3f@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mahmoud\\Woocommerge\\": "src/"
+        }
+    }
+}
